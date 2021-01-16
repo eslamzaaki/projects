@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Monoton;
+    font-size: 40px;
+    margin: 0.2em;
+    text-decoration: underline;
+  }
+  
+  h2 {
+    margin: 1em 0 0.25em;
+    background-color: aquamarine;
+
+  }
+  
+  h2:first-of-type {
+    margin-top: 0.5em;
+    color:thistle;
+    
+
+  }
+  
+  
+  tr,
+  td {
+    border: 1px solid rgb(230,230,220);
+
+  }
+  
+  table {
+    border-collapse: collapse;
+    border:1px solid black;
+    margin: 0 auto;
+  }
+  
+  tr {
+    height: 8px;
+  }
+  
+  td {
+    width: 8px;
+  }
+  
+  input[type="number"] {
+
+    width: 10em;
+  }
+  
