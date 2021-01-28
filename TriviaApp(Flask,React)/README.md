@@ -1,17 +1,17 @@
-#Trivia App:
+# Trivia App:
 -trivia app the place where you can play and gain information about different fileds and categories -in trivia you can post questions ,Delete questions ,get answers of all questions if you want and play excited quizzes in the category you want to -what are you waiting for ? just click play and start enjoy a great game and great knowledge
 
-#Getting Started:
+# Getting Started:
 -this project not hosted yet you can run it locally on your machine -all you need to get start with frontend server you can find on ./frontend/README.md -all you need to get start with backend server you can find on ./backend/README.md -in README.md of frontend and backend you will find all depencies and commands to run the server and test it -all prerequests you find in README.md files
 
-#Api Refrence
+# Api Refrence
 Get started with api refrence
 -Base url: at present this app run locally at http:localhost/5000 -Authentication:this version of the app does not require authentication or API keys
 
-#Error handling
+# Error handling
 -errors return json object in format {"success":False,"error":404,"message":"not found"} -the app will return three types of errors: 1. bad request (400) 2. not found (404) 3. unporcessable (422)
 
-#End points Library
+# End points Library
 	Endpoints
 	GET '/categories'
 	GET '/questions'
@@ -114,8 +114,8 @@ Get started with api refrence
 			"quiz_category": {"type": "click", "id": 1},}" ``
 
 	{'answer': 'Alexander Fleming', 'category': 1, 'question': 'Who discovered penicillin?', 'id': 21, 'difficulty': 3}
-#Authors
+# Authors
 -udacity fullstack nano degree program team -Eslam Zaki (solomzaki840@gmail.com)
 
-#Acknowledgments
+# Acknowledgments
 -this project was udacity project for a program and as a student in the program my rule was write Rest APIs of the backend and write test APIs and error handling
