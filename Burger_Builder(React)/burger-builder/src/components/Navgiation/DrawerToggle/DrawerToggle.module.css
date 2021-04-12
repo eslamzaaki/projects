@@ -1,0 +1,13 @@
+.DrawerTogglee {
+	width: 45px;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+.Bar {
+	border: 2px solid White;
+	width: 80%;
+	margin: 4px auto;
+	background-color: White;
+}

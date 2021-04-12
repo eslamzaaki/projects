@@ -1,0 +1,39 @@
+.ContactData {
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	background-color: #ded;
+	height: auto;
+	padding: 6px;
+}
+.ContactData h2 {
+	padding: 9px;
+	text-decoration: wavy;
+	color: #686;
+	border: 1px solid #eee;
+}
+.ContactData form {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.ContactData input {
+	width: 90%;
+	display: block;
+	height: 30px;
+	border: 1px solid #eee;
+}
+.ContactData Button {
+	background-color: #eee;
+	width: 120px;
+	border-radius: 20%;
+	font-style: italic;
+}
+@media (min-width: 600px) {
+	.ContactData {
+		width: 600px;
+	}
+}

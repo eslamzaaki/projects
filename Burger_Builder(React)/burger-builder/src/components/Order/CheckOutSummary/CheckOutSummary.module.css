@@ -1,0 +1,17 @@
+.CheckOutSummary {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	margin-top: 70px;
+}
+@media (min-width: 600px) {
+	.CheckOutSummary {
+		width: 500px;
+	}
+}
+.Controls {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
