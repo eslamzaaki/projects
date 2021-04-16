@@ -1,0 +1,11 @@
+body{
+    background-color: #800080;
+}
+.container{
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+.card{
+    min-height: 90vh;
+}
